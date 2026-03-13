@@ -20,7 +20,7 @@ export default function Inicio() {
         <div className="max-w-[1400px] mx-auto">
           <div className="flex items-start justify-between">
             <div>
-              <p className="text-blue-200 text-sm">Hola, María 👋</p>
+              <p className="text-blue-200 text-sm">Hola, María</p>
               <h1 className="text-white text-3xl font-bold mt-0.5">Tu día con PULSE</h1>
               <p className="text-blue-200 text-sm mt-1">Miércoles, 11 de marzo 2026</p>
             </div>

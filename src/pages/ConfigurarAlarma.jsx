@@ -52,14 +52,27 @@ export default function ConfigurarAlarma() {
   const previewCanal    = form.canal     || 'Push + sonido';
 
   return (
-    <div className="min-h-screen bg-[#F7F9FF] pb-24 md:pt-[70px] md:pb-0">
-      <div className="px-6 py-8 max-w-[1400px] mx-auto">
+    <div className="min-h-screen bg-[#F7F9FF] pb-20 md:pb-0 md:pt-[70px]">
 
-        {/* Two-column layout */}
-        <div className="flex gap-6 items-start">
+      {/* ── MOBILE: wave header ── */}
+      <div
+        className="md:hidden flex items-end justify-center px-6 pt-14 pb-12"
+        style={{
+          background: 'linear-gradient(135deg, #2F5BFF 0%, #6A5CFF 100%)',
+          borderBottomLeftRadius: '50% 40px',
+          borderBottomRightRadius: '50% 40px',
+        }}
+      >
+        <h1 className="text-3xl font-extrabold text-white">Nueva Alarma</h1>
+      </div>
+
+      <div className="px-4 md:px-6 py-6 md:py-8 max-w-[1400px] mx-auto">
+
+        {/* Two-column on desktop, stacked on mobile */}
+        <div className="flex flex-col md:flex-row gap-6 items-start">
 
           {/* ── LEFT: Configurar alarma ── */}
-          <div className="flex-1 min-w-0 rounded-xl overflow-hidden border border-gray-200 shadow-sm">
+          <div className="w-full md:flex-1 md:min-w-0 rounded-xl overflow-hidden border border-gray-200 shadow-sm">
             {/* Panel header */}
             <div className="px-6 py-4" style={{ backgroundColor: '#1E3AAE' }}>
               <h2 className="text-white font-bold text-lg">Configurar alarma</h2>
@@ -149,7 +162,7 @@ export default function ConfigurarAlarma() {
           </div>
 
           {/* ── RIGHT: Vista previa ── */}
-          <div className="w-80 lg:w-96 flex-shrink-0">
+          <div className="w-full md:w-80 lg:w-96 md:flex-shrink-0">
             <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm">
               {/* Panel header */}
               <div className="px-6 py-4" style={{ backgroundColor: '#1E3AAE' }}>
