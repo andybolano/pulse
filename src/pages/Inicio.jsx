@@ -16,7 +16,7 @@ export default function Inicio() {
     <div className="min-h-screen bg-[#F7F9FF] pb-24 md:pt-[70px] md:pb-0">
 
       {/* Hero gradient */}
-      <div className="bg-gradient-to-r from-[#2F5BFF] to-[#6A5CFF] px-6 md:px-10 pt-10 pb-8 rounded-b-3xl">
+      <div className="px-6 md:px-10 pt-10 pb-8 rounded-b-3xl" style={{ background: 'linear-gradient(135deg, #2F5BFF 0%, #6A5CFF 100%)' }}>
         <div className="max-w-[1400px] mx-auto">
           <div className="flex items-start justify-between">
             <div>
