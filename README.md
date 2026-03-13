@@ -89,7 +89,7 @@ Abrir en el navegador y usar las **DevTools → Toggle device toolbar** (respons
 
 ## Pregunta 3 — APK Android
 
-**Enlace de descarga (Google Drive):** <!-- INSERTAR ENLACE DE DRIVE AQUÍ -->
+**Enlace de descarga (Google Drive):** https://drive.google.com/file/d/1U3CubZvaClWh8FPsSirqNGgytVphp5yx/view?usp=drive_link
 
 ### Especificaciones del APK
 
