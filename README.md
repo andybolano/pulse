@@ -33,7 +33,7 @@ Aplicación de bienestar desarrollada como entrega académica. Permite gestionar
 
 ## Pregunta 1 — Frontend Web
 
-**Repositorio:** <!-- INSERTAR URL DEL REPOSITORIO AQUÍ -->
+**Demo :** https://pulse-alarmas.netlify.app/
 
 ### Cómo ejecutar la app web
 
@@ -66,7 +66,7 @@ npm run build
 
 ## Pregunta 2 — Frontend Mobile
 
-**Repositorio:** <!-- INSERTAR URL DEL REPOSITORIO AQUÍ -->
+**Demo:** https://pulse-alarmas.netlify.app/
 
 > El repositorio es el mismo que el de la app web. El proyecto usa **un único codebase** (React + Capacitor) que genera tanto la app web como el APK Android.
 
