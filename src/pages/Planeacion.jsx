@@ -163,7 +163,7 @@ export default function Planeacion() {
         </div>
 
         {/* RIGHT: Sugerencias */}
-        <div className="w-80 lg:w-96 flex-shrink-0">
+        <div className="w-80 lg:w-96 flex-shrink-0 mt-[80px]">
           <div className="rounded-t-xl px-5 py-4" style={{ backgroundColor: '#1E3AAE' }}>
             <h2 className="text-white font-bold text-base">Sugerencias de pulse</h2>
           </div>
